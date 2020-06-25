@@ -1,7 +1,10 @@
 function hello(name){
     console.log('Hello '+name)
 }
+console.log("Hello to Jenkins")
 hello('Garima')
+
+console.log("Hello to Jenkins")
 
 /*
 window and document are the part of run time environment in browser
