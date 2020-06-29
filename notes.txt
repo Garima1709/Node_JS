@@ -1,0 +1,26 @@
+------------>>>> Package Naming convention>
+"underscore": "^1.10.2"  : Major.minor.patch
+
+^ signifies : Major version should be same, minor and patch can differ  : ^1.10.2
+~ signifies : Major and minor version should be same, patch can differ : ~1.10.2
+
+----------->>>>To see dependencies of a node_module
+npm view <node_module name> dependencies
+
+>>>>To see list of outdated node_modules------------->
+npm outdated
+
+>>>>To updated node_modules to an updated version required:
+npm update
+
+
+To publish your own package------------------>
+1. Create the package with all the code
+2. Login with your npm credentials or create if you dont have
+3. Then ----    npm publish
+
+To update the published package------------->
+1. Update the version of node module either manually in package.json
+or
+with npm -->
+npm version major/minor/patch    // Use the one that you want to update

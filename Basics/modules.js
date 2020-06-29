@@ -62,6 +62,11 @@ if(req.url==='/api'){
 server.listen(3000)
 console.log('Listening on port 3000')
 
+// -------------------- Joi---------------
+/*
+Joi i used to define the schema or rules for any input
+ */
+
 
 
 
